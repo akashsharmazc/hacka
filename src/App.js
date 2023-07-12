@@ -77,7 +77,7 @@ const AddNewForm = () => {
   };
 
   const handleInputChange = (e) => {
-    debugger;
+    ;
     setNewSkill(e.target.value);
   };
 
