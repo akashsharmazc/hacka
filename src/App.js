@@ -1,7 +1,7 @@
 import { Table, Modal, Form, Col, Row, Input, Button, Tag } from 'antd';
 import React, { useState, useEffect } from 'react';
 
-const App = () => {
+const AddNewForm = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [form] = Form.useForm();
   const [newSkill, setNewSkill] = useState('');
@@ -259,4 +259,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default AddNewForm;
